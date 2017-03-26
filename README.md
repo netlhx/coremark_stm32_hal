@@ -5,6 +5,7 @@ steps:
 
 1. with core_portme.h file, change ITERATIONS to an appropriate value.
 2. with core_portme.c file, replace specific MCU platform header file, then change uart handle for communication.
-3. in you project's main() function, add a function call to core_main(), following peripherals' initialization code.
+3. change UART device configured for serial output in core_portme.c file.
+4. in you project's main() function, add a function call to core_main(), following peripherals' initialization code.
 
 enjoy!
